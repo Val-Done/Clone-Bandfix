@@ -1,0 +1,45 @@
+body {
+    font-family:'Times New Roman',Times, sans-serif;
+    font-size: 18px;color:whitesmoke; 
+    background-color:#191919;
+}
+.title 
+{
+    font-family: 20px'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.form
+{   width: 200px;
+    margin:auto;
+    padding: 20px;
+
+}
+.form-enter 
+{  margin-bottom: 25px;
+}
+.form-input
+{
+  width:200px;
+  height: 20px;
+  padding: 20px;
+  border: 1px groove whitesmoke;
+  border-radius: 3px;
+  background-color:#191919;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;color:whitesmoke;  
+  
+}
+.form-submit
+
+{
+  width:200px;
+  height: 20px;
+  padding: 20px;
+  border: 1px groove whitesmoke;
+  border-radius: 3px;
+  background-color:#ff8000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;color:whitesmoke; 
+}

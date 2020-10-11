@@ -1,0 +1,143 @@
+body {
+      font-family:'Times New Roman', Times, sans-serif;
+      font-size: 18px;color:whitesmoke; 
+      background-color:#191919;
+}
+
+.general-title {
+ font-size: 22px;  
+ text-align: center;
+ columns: #555454;
+ margin-bottom: 20x;
+ }
+ /*Header*/
+ .header {
+   width:auto;
+   height: 60px;
+   border: 1px solid #000000;
+   background-color:#0d0d0f;
+   margin:0;
+   padding: 5 auto;
+   text-align: left;
+   
+ }
+ .header-title{
+   font-size: 18px;  
+   text-align: left;
+   color:white;
+   margin: -50px 70px ;
+ }
+ .title-link {
+   font-size: bold;
+   color: white;
+   text-decoration:none;
+ }
+ .title-link:hover 
+ {
+   text-decoration: underline white;
+ }
+
+   .logo {
+    margin:5px 0 0 ;
+    padding-left: 5px;
+      
+   }
+
+ /*Navigation*/ 
+ .nav {
+   text-align: right;
+   margin-top: 10px;
+   padding: 10px;
+ }
+ .nav-link { 
+   display:inline-block;
+   padding: 8px 4px ;
+   font-size: 16px;
+   color: white;
+   text-align: right;
+   text-decoration: none;
+    
+ }
+ .nav-link:hover 
+ {
+   text-decoration: underline white ;
+ }
+ /*enter login*/
+ .enter
+  {
+    width: 22px;
+    height: 22px;
+    margin-top: 8px;
+  }
+
+/* button style*/
+    
+
+  .store 
+  {
+    display: inline;
+    position: absolute;
+    top: 28%;
+    left:35%;
+    
+          
+  }
+  .apple
+  {
+     width: 150px;
+     height: 80px;
+     margin: 0px 10px ;
+  }
+  .google
+  {
+    padding: 10px;
+  }
+div 
+{ font-size: 16px;
+  text-align:center; 
+}
+
+/*Contact*/
+.contact 
+{
+    padding: 8px 8px ;
+   font-size:bold;
+   color:#ffffff;
+   text-align: center;
+   text-decoration: none;
+}
+.contact-image 
+{
+  margin-right: 15px;
+  padding: 8px 5px;
+}
+.contact-link 
+{
+  font-size: bold;
+  color: #ffffff;
+  margin-right: 0px;
+  padding: 8px 5px;
+}
+
+
+
+/*navigation footer*/
+.nav-footer
+{
+   display:inline-block;
+   
+   font-size:bold;
+   text-align: center;
+   
+  }
+.footer-link
+{
+  color:#ffffff;
+  text-decoration: none;
+  padding: 8px 4px ;
+}
+
+  .footer-link:hover
+{
+  text-decoration: underline white ;
+}
