@@ -1,15 +1,11 @@
 body {
-      font-family:'Times New Roman', Times, sans-serif;
-      font-size: 18px;color:whitesmoke; 
-      background-color:#191919;
+      font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+      font-size: 0.875rem;color:whitesmoke;
+      font-weight: 400;
+      font-weight: 1.43;
+      letter-spacing: 0.01071em; 
+      background-color:#252525;
 }
-
-.general-title {
- font-size: 22px;  
- text-align: center;
- columns: #555454;
- margin-bottom: 20x;
- }
  /*Header*/
  .header {
    width:auto;
@@ -19,6 +15,7 @@ body {
    margin:0;
    padding: 5 auto;
    text-align: left;
+   position:sticky top;
    
  }
  .header-title{
@@ -31,12 +28,12 @@ body {
    font-size: bold;
    color: white;
    text-decoration:none;
+   
  }
  .title-link:hover 
  {
    text-decoration: underline white;
  }
-
    .logo {
     margin:5px 0 0 ;
     padding-left: 5px;
@@ -69,34 +66,236 @@ body {
     height: 22px;
     margin-top: 8px;
   }
+/**Introduction**/
+  .manage 
 
-/* button style*/
-    
-
-  .store 
   {
-    display: inline;
-    position: absolute;
-    top: 28%;
-    left:35%;
+    margin: 10 0;
+    padding: 15px 0;
+    display: wrap;
+    justify-content:center;
+            
+  }
+  .subtitle-manage 
+  {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .manage-text
+  {
+    text-align: center;
+  }
+
+  /* button style*/
     
+  .store 
+  { 
+   display: flex;
+   justify-content: center;
+       align-items:center;
           
   }
-  .apple
+  .apple, .google
   {
      width: 150px;
      height: 80px;
      margin: 0px 10px ;
+     padding: 10;
   }
   .google
-  {
-    padding: 10px;
+  {  margin: 0px 10px;
+     padding: 5px;
   }
-div 
-{ font-size: 16px;
-  text-align:center; 
+  h1
+  {
+    font-size: 1.5rem;
+  }
+.content
+ { position: relative;
+  
 }
 
+ /** text-1**/
+.prepare-setlist
+{ position: relative;
+  margin: 0px  190px 0px;
+  text-align: left;
+  padding: 200px 0 0px;
+  width: 850px;
+  height: 300px;
+  
+}
+/**image-1**/
+.setlist 
+{ position: absolute;
+  right: 0px;
+  bottom: 0px;
+   width: 230px;
+  height: 380px;
+ 
+}
+/**text-2**/
+.your-songs
+{
+  position: relative;
+  margin: 0px  190px 0px;
+  text-align: right;
+  padding: 80px 0 0px;
+  width: 850px;
+  height: 300px;
+  
+}
+
+/**image-2**/
+.store-songs    
+{ position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 230px;
+  height: 380px;
+}
+
+/** Text-3**/
+.band
+{
+  position: relative;
+  margin: 0px  190px 0px;
+  text-align: left;
+  padding: 80px 0 0px;
+  width: 850px;
+  height: 300px;
+  
+}
+ /** image-3**/
+.manage-band
+{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 230px;
+  height: 380px;
+ 
+}
+ /** text-4**/
+.library
+{
+  position: relative;
+   
+   margin: 0px  190px 0px;
+   text-align: right;
+   padding: 80px 0 0px;
+   width: 850px;
+   height: 300px;
+   
+}
+/** image-4**/
+.library-songs
+{ position: absolute;
+  left: 0px;
+  top: 0px;
+   width: 230px;
+  height: 380px;
+}
+/** text-5**/
+.optimize
+{
+  position: relative;
+  margin: 0px  190px 0px;
+  text-align: left;
+  padding: 80px 0 0px;
+  width: 850px;
+  height: 300px;
+  
+}
+/** image-5**/
+.optimize-band
+{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 230px;
+  height: 380px;
+}
+ /** text-6**/
+.perform
+{
+  position: relative;
+   margin: 0px  190px 0px;
+   text-align: right;
+   padding: 80px 0 0px;
+   width: 850px;
+   height: 300px;
+   
+}
+/** image-6**/
+.perform-better
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+   width: 230px;
+  height: 380px;
+}
+/** text-7**/
+.notified
+{ position: relative;
+  margin: 0px  190px 0px;
+  text-align: left;
+  padding: 80px 0 0px;
+  width: 850px;
+  height: 300px;
+  
+}
+/** image-7**/
+.be-notified
+{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 230px;
+  height: 380px;
+}
+/**text-8**/
+.print
+{
+  position: relative;
+  margin: 0px  190px 0px;
+  text-align: right;
+  padding: 80px 0 0px;
+  width: 850px;
+  height: 300px;
+ 
+}
+/**image-8**/
+.print-setlists 
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+   width: 230px;
+  height: 380px;
+}
+.sharing-data
+{
+  width:auto;
+  height: auto;
+  text-align: center;
+  margin: 80px 0 80px;
+}
+.free-usage
+{
+  width:auto;
+  height: auto;
+  text-align: center;
+  margin: 80px 0 80px;
+}
+.questions
+{
+  width:auto;
+  height: auto;
+  text-align: center;
+  margin: 80px 0 80px;
+}
 /*Contact*/
 .contact 
 {
